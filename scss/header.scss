@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    position: fixed;
+    background: $bg-body-1;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 150px;
+  
+    button {
+      background: $bg-body-2;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      width: auto;
+    }
+    button:hover {
+      cursor: pointer;
+      background: $bg-body-3;
+    }
+  }
